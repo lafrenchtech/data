@@ -3,13 +3,11 @@
   "scripts": {
     "babel-node": "babel-node --presets=latest",
     "start": "nodemon --exec npm run babel-node -- ./index.js",
-    "build": "babel src -d dist",
-    "test": "validate_sources sources.json"
+    "build": "babel src -d dist"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-latest": "^6.24.1",
-    "redex-scripts": "redex/redex-scripts"
+    "babel-preset-latest": "^6.24.1"
   },
   "babel": {
     "presets": ["latest"]
